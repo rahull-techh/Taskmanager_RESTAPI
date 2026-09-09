@@ -6,4 +6,3 @@ class TaskManager(models.Model):
     title = models.CharField(max_length=100, null=False)
     completed = models.BooleanField(default=False)
 
-
